@@ -226,7 +226,7 @@ void handle_exit() {
         std::cout << "Exiting the game...\n";
         exit(0);
     } else {
-        std::cout << "\n";
+        std::cout << "Cancelled.\n";
         return;
     }
 }
